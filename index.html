@@ -1,0 +1,44 @@
+<html>  
+    <link rel = 'stylesheet' href = "style.css" type = "text/css">
+<head>
+    <meta http-equiv = "content-type" content = "text/html; charset = utf-8"/>
+    <meta http-equiv = "content-language" content = "pl" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.7">
+	<script src = "validation.js"> </script>
+</head>
+</head>
+<body>
+	<div class = "container">
+		<div class = "label"> Rejestracja </div>
+		<form class = "registration" name = "registration">
+
+			<div class = "fontName">Imię:</div>
+			<input type = "text" name = "name" id = "name">
+			<p id="nameError" style = "color: red; padding-top: 5px;"></p> 
+
+			<div class = "fontLastName">Nazwisko:</div>
+			<input type = "text" name = "lastName" id = "lastName">
+			<p id="lastNameError" style = "color: red; padding-top: 5px;"></p> 
+
+			<div class = "fontBirthDate">Data urodzenia:</div>
+			<input type = "date" name = "birthDate" id = "birthDate">
+			<p id="birthDateError" style = "color: red; padding-top: 5px;"></p> 
+
+			<div class = "fontPostalCode">Kod pocztowy:</div>
+			<input type = "text" name = "postalCode" id = "postalCode"> 
+			<p id = "postalCodeError" style = "color: red; padding-top: 5px;"></p>
+
+			<div class = "fontEmail">Adres e-mail:</div>
+			<input type = "text" name = "email" id = "email">
+			<p id="emailError" style = "color: red; padding-top: 5px;"></p> 
+
+			<div class = "fontPassword">Hasło:</div>
+			<input name="password" id="password" type="password" title = "Hasło musi zawierać: małe litery, wielkie litery, znaki specjalne oraz cyfry."> 
+			<p id="passwordError" style = "color: red; padding-top: 5px;"></p>
+
+			<input type = "button" value = "Sprawdź" id = "button" onclick = "check(this.form);">
+			
+		</form>
+	</div>	
+</body>
+</html>

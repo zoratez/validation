@@ -1,0 +1,113 @@
+:root {
+	--green: #12e78e;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: repeating-linear-gradient( 45deg, #0f0f0f, #0f0f0f 200px, #0a0a0a 150px, #0a0a0a 300px );
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 450px;
+	height: auto;
+	margin: auto;
+	border-radius: 40px;
+	border: solid 2px var(--green);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	box-shadow: 0px 0px 10px var(--green);
+}
+.label {
+	padding-top: 40px;
+	padding-left: 130px;
+	padding-right: 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.fontName {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontlastName {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontBirthDate {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontPostalCode {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontEmail {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontPassword {
+	font-size: 18px;
+	color: var(--green);
+	margin: 10px 0;
+}
+
+.fontSend {
+	font-size: 6vw;
+	font-weight: bold;
+	color: var(--green);
+}
+
+.registration input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid var(--green);
+	background-color: #2e2e2e;
+	color: white;
+}
+.registration {
+	padding: 1px 40px;
+	margin-top: 30px;
+}
+
+#button {
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #2e2e2e;
+	border-radius: 25px;
+	border: 3px solid #000000;
+	transition: .3s;
+}
+#button:hover{
+	background: var(--green);
+	color: #000000;
+	box-shadow: 0px 0px 8px var(--green);
+}
